@@ -1,0 +1,459 @@
+/***************************************************************************
+                            DONATE SECTION 1
+****************************************************************************/
+.ev-donate-section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 123px;
+  padding-bottom: 123px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.ev-donate-section-1-item {
+  background: #4bc5f2;
+  border-radius: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  width: 30%;
+  max-width: 426px;
+  padding: 56px 0;
+}
+.ev-donate-section-1-item-content {
+  width: 80%;
+  margin: auto;
+}
+.ev-donate-section-1-item-content h1,
+.ev-donate-section-1-item-content p {
+  color: white;
+}
+.ev-donate-section-1-item-number {
+  color: white;
+  font-size: 65px;
+}
+/***************************************************************************
+                            DONATE SECTION 1
+****************************************************************************/
+.ev-donate-section-2 {
+  min-height: 500px;
+  background: url(../svg/donate/pattern.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.ev-donate-section-2-wrapper {
+  background: white;
+  width: 80%;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.ev-donate-carousel {
+  width: 80%;
+}
+.ev-donate-carousel-header {
+  text-align: center;
+}
+.ev-donate-carousel-header-bottom {
+  background: #e6ebed;
+  color: #003249;
+  font-family: Open Sans;
+  font-size: 28px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ev-donate-header-item {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.ev-donate-header-item-number {
+  border-radius: 30px;
+  padding: 0 10px;
+  border: 1px solid #003149;
+}
+.ev-donate-carousel-indicator {
+  height: 4px;
+  background: #00aeee;
+  max-width: calc(100% / 3);
+  -webkit-transition: max-width 0.6s linear;
+  transition: max-width 0.6s linear;
+}
+.ev-donate-carousel-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.ev-donate-carousel-body-left {
+  width: 40%;
+}
+.ev-donate-carousel-body-left-header {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 87px;
+  text-transform: uppercase;
+}
+.ev-donate-carousel-body-left-body {
+  font-size: 24px;
+}
+.ev-donate-carousel-body-right {
+  overflow: hidden;
+  width: 55%;
+}
+.ev-donate-carousel-footer {
+  text-align: right;
+  margin: 69px 0;
+}
+.ev-donate-carousel-footer button {
+  background: #003249;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  width: 289.01px;
+  height: 63px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.ev-donate-carousel-slider {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
+}
+.ev-donate-carousel-slide {
+  width: 100%;
+  height: 100%;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.ev-donate-carousel-slide:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.ev-donate-carousel-slide:nth-child(2) {
+  background: purple;
+}
+.ev-donate-carousel-slide:nth-child(3) {
+  background: orange;
+}
+
+.ev-donate-carousel-slider label {
+  background: #e6ebed;
+  color: black;
+  display: inline-block;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.ev-donate-carousel-slider input[type="radio"] {
+  display: none;
+}
+.ev-donate-carousel-slider input[type="radio"]:checked + label {
+  color: white;
+  background: #003249;
+}
+.ev-donate-carousel-slider input[type="text"] {
+  background: #e6ebed;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 55%;
+}
+
+.ev-slide-1-row-1 label {
+  width: 40%;
+}
+.ev-slide-1-row-2 label {
+  width: 20%;
+}
+
+.ev-slide-1-row-1,
+.ev-slide-1-row-2,
+.ev-slide-1-row-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.ev-slide-1-row-3 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/***************************************************************************
+                            DONATE SECTION 3
+****************************************************************************/
+.ev-donate-section-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 2137px;
+  background: #4bc5f2;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+.ev-donate-section-3-left {
+  background: white;
+  color: black;
+  width: 30%;
+  min-height: 1494px;
+  border-radius: 20px;
+  margin-bottom: 474px;
+  z-index: 1;
+}
+.ev-donate-section-3 ul li {
+  font-family: Open Sans;
+  font-size: 27px;
+  line-height: 43px;
+  letter-spacing: 0.03em;
+}
+.ev-donate-section-3-header {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #003249;
+  line-height: 76px;
+  margin-top: 128px;
+  z-index: 1;
+}
+.ev-donate-section-3-header-amount {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #003249;
+  text-align: center;
+}
+.ev-donate-section-3-body {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  max-width: 80%;
+  z-index: 1;
+  text-align: center;
+  margin: auto;
+  text-align: left;
+}
+.ev-donate-section-3-right {
+  width: 40%;
+  min-height: 1494px;
+  z-index: 1;
+  margin-bottom: 474px;
+}
+.ev-donate-section-3-right .ev-donate-section-3-header {
+  text-align: left;
+  color: black;
+}
+.ev-donate-section-3-right .ev-donate-section-3-body {
+  max-width: 100%;
+}
+.ev-donate-section-3-bottom-image-left,
+.ev-donate-section-3-bottom-image-right {
+  position: absolute;
+  bottom: 0;
+}
+
+.ev-donate-section-3-bottom-image-left {
+  max-width: 485px;
+  max-height: 461px;
+  left: 0;
+}
+.ev-donate-section-3-bottom-image-right {
+  max-width: 479px;
+  max-height: 329px;
+  right: 0;
+}
+
+@media screen and (max-width: 900px) {
+  /**********************************
+            DONATE SECTION 1
+    ***********************************/
+  .ev-donate-section-1 {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .ev-donate-section-1-item {
+    width: 45%;
+    margin: 10px;
+  }
+
+  .ev-donate-carousel-header-bottom {
+    line-height: 1.5;
+  }
+  .ev-donate-header-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .ev-donate-header-item-caption {
+    font-size: 12px;
+  }
+  .ev-donate-header-item-number {
+    font-size: 12px;
+    padding: 0px 5px;
+  }
+  .ev-donate-carousel-body-left {
+    display: none;
+  }
+  .ev-donate-carousel-body-right {
+    overflow: hidden;
+    width: 100%;
+    min-height: 300px;
+  }
+  .ev-donate-carousel-slider label {
+    padding: 8px;
+  }
+  .ev-donate-carousel-footer button {
+    width: 176px;
+    height: 42px;
+    font-size: 14px;
+  }
+  .ev-donate-carousel-footer {
+    text-align: center;
+    margin: 37px 0;
+  }
+  /**********************************
+            DONATE SECTION 3
+    ***********************************/
+  .ev-donate-section-3 {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    min-height: auto;
+  }
+  .ev-donate-section-3-left {
+    width: 80%;
+    min-height: auto;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    margin-top: 50px;
+    margin-bottom: 200px;
+  }
+  .ev-donate-section-3-right {
+    width: 80%;
+    min-height: auto;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .ev-donate-section-3 ul li {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .ev-donate-section-3-header {
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .ev-donate-section-3-left .ev-donate-section-3-header {
+    width: 80%;
+    text-align: center;
+    margin: 50px auto 0 auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  /**********************************
+            DONATE SECTION 1
+    ***********************************/
+  .ev-donate-section-1 {
+    padding-top: 63px;
+    padding-bottom: 63px;
+  }
+  .ev-donate-section-1-item {
+    width: 99px;
+    padding: 0;
+  }
+  .ev-donate-section-1-item-number {
+    font-size: 24px;
+  }
+  .ev-donate-section-1-item-body {
+    display: none;
+  }
+  /**********************************
+            DONATE SECTION 3
+    ***********************************/
+  .ev-donate-section-3-bottom-image-left {
+    display: none;
+  }
+  .ev-donate-section-3-bottom-image-right {
+    max-width: 203.97px;
+    max-height: 140px;
+    right: 0;
+  }
+  .ev-slide-1-row-2 label {
+    width: auto;
+  }
+  .ev-slide-1-row-1 label {
+    width: auto;
+  }
+}

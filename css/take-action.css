@@ -1,0 +1,471 @@
+/***************************************************************************
+                                HERO
+****************************************************************************/
+.ev-take-action-hero-container {
+  height: 654px;
+  /*height: calc(100vh - 92px);*/
+  /* height: calc(100vh); */
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  overflow-x: hidden;
+  background: url(../images/take-action/hero-background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0;
+  margin: auto;
+}
+.ev-take-action-hero-content {
+  margin: 0;
+}
+.ev-take-action-hero-header {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/***************************************************************************
+                            TAKE ACTION SECTION 1
+****************************************************************************/
+.ev-take-action-section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  min-height: 508px;
+  font-family: Open Sans;
+  text-align: center;
+  color: #000000;
+}
+.ev-take-action-section-1-header {
+  font-family: Noto Serif;
+  font-size: 30px;
+  line-height: 47px;
+  max-width: 83%;
+}
+/***************************************************************************
+                            TAKE ACTION SECTION 2
+****************************************************************************/
+.ev-take-action-section-2 {
+  height: 608px;
+  background: linear-gradient(146.01deg, #9dd2ca 0%, #27ace3 102.05%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+.ev-take-action-section-2-header {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 112px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+}
+.ev-take-action-section-2-body {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  max-width: 80%;
+  z-index: 1;
+  text-align: center;
+}
+.ev-take-action-section-2-button-wrapper {
+  margin-top: 99px;
+  z-index: 1;
+}
+.ev-take-action-button {
+  background: #003249;
+  border-radius: 30px;
+  width: 289.53px;
+  height: 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-transition: background 0.6s ease-in-out;
+  transition: background 0.6s ease-in-out;
+}
+.ev-take-action-button:hover {
+  background: #00aeef;
+}
+.ev-take-action-button-caption {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: white;
+}
+.ev-take-action-section-2-house {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 440px;
+}
+/***************************************************************************
+                            TAKE ACTION SECTION 3
+****************************************************************************/
+.ev-take-out-section-3-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 184px;
+  padding-bottom: 184px;
+}
+.ev-take-out-section-3-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  background: linear-gradient(
+    115.97deg,
+    #f17e3e -3.26%,
+    #ffcf3a 104.08%,
+    rgba(196, 196, 196, 0) 104.09%,
+    rgba(196, 196, 196, 0) 104.09%
+  );
+  -webkit-box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 45%;
+  max-width: 735px;
+  margin: 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ev-take-out-section-3-item-content-wrapper {
+  width: 80%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+.ev-take-out-section-3-item-content-wrapper h1 {
+  margin-top: 60px;
+}
+.ev-take-out-section-3-button-wrapper {
+  margin-bottom: 60px;
+}
+/***************************************************************************
+                            TAKE ACTION SECTION 4
+****************************************************************************/
+.ev-take-action-section-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 600px;
+  background: url(../svg/take-action/clouds.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.ev-take-action-section-4-header {
+  color: black;
+}
+/***************************************************************************
+                            TAKE ACTION SECTION 5
+****************************************************************************/
+.ev-take-action-section-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 2137px;
+  background: #4bc5f2;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+.ev-take-action-section-5-left {
+  background: white;
+  color: black;
+  width: 30%;
+  min-height: 1494px;
+  border-radius: 20px;
+  margin-bottom: 474px;
+  z-index: 1;
+}
+.ev-take-action-section-5 ul li {
+  font-family: Open Sans;
+  font-size: 27px;
+  line-height: 43px;
+  letter-spacing: 0.03em;
+}
+.ev-take-action-section-5-header {
+  color: #003249;
+  line-height: 76px;
+  margin-top: 128px;
+}
+.ev-take-action-section-5-header-amount {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #003249;
+  text-align: center;
+}
+.ev-take-action-section-5-body {
+  margin: auto;
+  text-align: left;
+}
+.ev-take-action-section-5-right {
+  width: 40%;
+  min-height: 1494px;
+  z-index: 1;
+  margin-bottom: 474px;
+}
+.ev-take-action-section-5-right .ev-take-action-section-5-header {
+  text-align: left;
+  color: black;
+}
+.ev-take-action-section-5-right .ev-take-action-section-5-body {
+  max-width: 100%;
+}
+.ev-take-action-section-5-bottom-image {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  /* .ev-take-action-section-3-item{
+        width: 47%;
+        height: 914px;
+    } */
+  .ev-take-action-section-5-header-amount {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /**********************************
+            HERO
+    ***********************************/
+  .ev-take-action-hero-container {
+    height: 575px;
+  }
+  .ev-take-action-hero-content {
+    max-width: 80%;
+  }
+  .ev-take-action-hero-header {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  /**********************************
+            OUR WORK SECTION 1
+    ***********************************/
+  .ev-take-action-section-1 {
+    min-height: 240px;
+  }
+  .ev-take-action-section-1-header {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 30px 0 30px 0;
+  }
+  /**********************************
+            OUR WORK SECTION 2
+    ***********************************/
+  .ev-take-action-section-2 {
+    height: 443px;
+  }
+  .ev-take-action-section-2-header {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .ev-take-action-button {
+    width: 176px;
+    height: 41.82px;
+  }
+  .ev-take-action-section-2-button-wrapper {
+    margin-top: 34px;
+  }
+  .ev-take-action-button-caption {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .ev-take-action-section-2-house {
+    max-width: 171px;
+  }
+  /**********************************
+            OUR WORK SECTION 3
+    ***********************************/
+  .ev-take-out-section-3-wrapper {
+    padding-top: 69px;
+    padding-bottom: 69px;
+  }
+  .ev-take-out-section-3-item {
+    width: 69%;
+    border-radius: 10px;
+  }
+  .ev-take-out-section-3-item-content-wrapper {
+    width: 80%;
+    height: 104px;
+    cursor: pointer;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: left;
+  }
+  .ev-take-out-section-3-item-content-wrapper h1 {
+    margin: 0;
+    width: 100%;
+    position: relative;
+  }
+  .ev-take-out-section-3-item-content-wrapper h1::after {
+    content: url(../svg/take-action/arrow.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .ev-take-out-section-3-item-content-wrapper p,
+  .ev-take-out-section-3-button-wrapper {
+    display: none;
+  }
+  /**********************************
+            OUR WORK SECTION 4
+    ***********************************/
+  .ev-take-action-section-4 {
+    background-position: 100%;
+    height: 450px;
+  }
+
+  /**********************************
+            OUR WORK SECTION 5
+    ***********************************/
+  .ev-take-action-section-5 {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    min-height: auto;
+  }
+  .ev-take-action-section-5-left {
+    width: 80%;
+    min-height: auto;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    margin-top: 50px;
+    margin-bottom: 200px;
+  }
+  .ev-take-action-section-5-right {
+    width: 80%;
+    min-height: auto;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .ev-take-action-section-5 ul li {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .ev-take-action-section-5-header {
+    margin: 0;
+  }
+  .ev-take-action-section-5-left .ev-take-action-section-5-header {
+    width: 80%;
+    text-align: center;
+    margin: 50px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ev-home-section-test-item {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .ev-home-section-test-item-content-wrapper {
+    width: 93%;
+  }
+
+  .ev-take-action-section-3 {
+    width: 95%;
+  }
+  .ev-take-action-section-3-item {
+    width: 100%;
+  }
+}

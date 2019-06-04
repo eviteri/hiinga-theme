@@ -1,0 +1,159 @@
+/***************************************************************************
+                                    HEADER
+****************************************************************************/
+.ev-header-site-mobile {
+  background-color: #000000;
+  height: 92px;
+  width: 100%;
+  position: fixed;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  top: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+.ev-burger-wrapper,
+.ev-mobile-logo-wrapper {
+  display: none;
+}
+.ev-donote-button {
+  width: 20%;
+  height: 63px;
+  background: #00aeef;
+  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  max-width: 290px;
+}
+.ev-donate-caption {
+  font-family: Open Sans;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #003249;
+}
+
+/***************************************************************************
+                            NAVIGATION MENU
+****************************************************************************/
+.ev-site-navigation {
+  width: 60%;
+}
+.ev-header-navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+.ev-header-navigation ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px;
+}
+@media screen and (max-width: 900px) {
+  /**********************************
+                HEADER
+    ***********************************/
+  .ev-header-site-mobile {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 57px;
+    position: fixed;
+    top: 0;
+  }
+  .ev-logo-wrapper {
+    display: none;
+  }
+  .ev-burger-wrapper,
+  .ev-mobile-logo-wrapper {
+    display: block;
+  }
+  .ev-burger-wrapper {
+    margin-left: 15.5px;
+  }
+  .ev-donote-button {
+    width: 85px;
+    height: 32px;
+    margin-right: 15.5px;
+  }
+  .ev-donate-caption {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  /**********************************
+            NAVIGATION MENU
+    ***********************************/
+  .ev-site-navigation {
+    position: absolute;
+    width: 100%;
+    top: 57px;
+    min-height: calc(100vh - 57px);
+    background-color: #505050;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .ev-header-navigation ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .ev-header-navigation ul li a {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #676767;
+  }
+  .ev-open-menu {
+    -webkit-animation-name: ev-open-menu-animation;
+    animation-name: ev-open-menu-animation;
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .ev-close-menu {
+    -webkit-animation-name: ev-close-menu-animation;
+    animation-name: ev-close-menu-animation;
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+}

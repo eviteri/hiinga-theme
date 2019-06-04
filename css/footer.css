@@ -1,0 +1,210 @@
+footer {
+  background: #003249;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+footer a,
+footer a:visited,
+footer a:focus {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #9e9e9e;
+}
+.ev-footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 400px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-top: 122px;
+}
+.ev-footer-top-1,
+.ev-footer-top-2,
+.ev-footer-top-3,
+.ev-footer-top-4,
+.ev-footer-top-5 {
+  width: 20%;
+  margin: 10px;
+  max-width: 300px;
+}
+.ev-footer-logo {
+  max-width: 100%;
+  max-height: 215px;
+}
+.ev-footer-logo-mobile {
+  display: none;
+}
+.ev-footer-top-header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  border-bottom: 1px solid white;
+}
+.ev-footer-top-5-top .ev-footer-top-header {
+  border: none;
+}
+.ev-footer-top-body {
+  margin-top: 20px;
+}
+.ev-footer-top-social-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ev-footer-top-social-wrapper a {
+  margin-right: 10px;
+}
+.ev-footer-top-social-wrapper img {
+  width: 41px;
+  height: 41px;
+}
+.ev-footer-top-5-bottom {
+  margin-top: 50px;
+}
+.ev-footer-form-header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+.ev-column-2 input {
+  width: 48%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #ffffff;
+  opacity: 0.85;
+  border-radius: 3px;
+  padding: 5px;
+  border: none;
+}
+.ev-column-1 input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #ffffff;
+  opacity: 0.85;
+  border-radius: 3px;
+  padding: 5px;
+  border: none;
+}
+.ev-subscribe-button {
+  background: inherit;
+  color: white;
+  padding: 9px;
+  border-radius: 20px;
+  width: 172px;
+  margin-top: 20px;
+}
+.ev-footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 150px;
+}
+.ev-fotter-bottom-left {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+.ev-fotter-bottom-right {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  color: #9e9e9e;
+}
+@media screen and (max-width: 900px) {
+  .ev-footer-top {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 47px;
+  }
+  .ev-footer-top-1,
+  .ev-footer-top-2,
+  .ev-footer-top-3,
+  .ev-footer-top-4,
+  .ev-footer-top-5 {
+    width: 80%;
+  }
+  .ev-footer-logo,
+  .ev-footer-top-2,
+  .ev-footer-top-3,
+  .ev-footer-top-4 {
+    display: none;
+  }
+  .ev-footer-logo-mobile {
+    display: block;
+  }
+  .ev-footer-logo-mobile {
+    width: 229px;
+    height: 63.89px;
+    margin: auto;
+  }
+  .ev-footer-top-5 {
+    text-align: center;
+    margin-top: 36px;
+  }
+  .ev-footer-top-social-wrapper {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .ev-footer-bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+  .ev-fotter-bottom-left,
+  .ev-fotter-bottom-right {
+    width: 80%;
+  }
+  .ev-fotter-bottom-left {
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    mix-blend-mode: normal;
+  }
+  .ev-fotter-bottom-right {
+    font-size: 10px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+  }
+}

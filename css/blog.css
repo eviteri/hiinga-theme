@@ -1,0 +1,278 @@
+/***************************************************************************
+                                HERO
+****************************************************************************/
+.ev-blog-hero-container {
+  /*height: 874px;*/
+  height: calc(100vh - 92px);
+  width: 100%;
+  /*max-width: 1920px;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  overflow-x: hidden;
+  background: url(../images/home/hero-background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0;
+  margin: auto;
+}
+.ev-blog-hero-content {
+  margin-left: 154px;
+  margin-bottom: 154px;
+  max-width: 700px;
+}
+.ev-blog-hero-header {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.ev-blog-hero-body {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  margin-top: 20px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 54px;
+  color: #ffffff;
+}
+/***************************************************************************
+                                GALLERY
+****************************************************************************/
+.ev-blog-gallery-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 130px 0;
+}
+.ev-blog-gallery-item {
+  width: 33%;
+  margin: 50px;
+  cursor: pointer;
+}
+.ev-blog-gallery-image {
+  max-width: 473px;
+  border-radius: 30px;
+  margin-bottom: 44px;
+}
+.ev-blog-gallery-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.ev-blog-gallery-body {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 12px;
+}
+.ev-blog-gallery-date {
+  font-family: Open Sans;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.ev-blog-gallery-read-more {
+  color: #4bc5f2;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.ev-blog-pagination {
+  text-align: right;
+  font-size: 18px;
+  padding: 20px;
+}
+/***************************************************************************
+                            SUBSCRIBE FORM
+****************************************************************************/
+.ev-blog-form,
+.ev-blog-form h1,
+.ev-blog-form p {
+  font-family: Noto Serif;
+  font-style: normal;
+  color: #003249;
+}
+.ev-blog-form-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(../svg/contact/background.svg),
+    -webkit-gradient(linear, left top, left bottom, color-stop(48.44%, #ffffff), color-stop(65.62%, rgba(255, 255, 255, 0.524062)), color-stop(92.01%, rgba(255, 255, 255, 0)));
+  background: url(../svg/contact/background.svg),
+    linear-gradient(
+      180deg,
+      #ffffff 48.44%,
+      rgba(255, 255, 255, 0.524062) 65.62%,
+      rgba(255, 255, 255, 0) 92.01%
+    );
+  padding: 150px 0;
+}
+.ev-blog-form-container {
+  width: 80%;
+  text-align: center;
+  background: white;
+  border-radius: 30px;
+  min-height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.ev-blog-form-elements-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.ev-blog-form-group {
+  width: calc(100% / 4.5);
+  min-height: 60px;
+}
+.ev-blog-form-group input {
+  width: 100%;
+  display: block;
+  background: #dedede;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ev-blog-form-group button {
+  background: #003249;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  width: 100%;
+  max-width: 289.01px;
+  height: 42px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.ev-blog-form-header,
+.ev-blog-form-elements-wrapper,
+.ev-blog-form-footer {
+  width: 80%;
+  margin: auto;
+}
+.ev-blog-form-header h1 {
+  font-size: 32px;
+}
+.ev-blog-form-container p {
+  font-size: 25px;
+}
+@media screen and (max-width: 900px) {
+  /**********************************
+            HERO
+    ***********************************/
+  .ev-blog-hero-container {
+    height: 575px;
+  }
+  .ev-blog-hero-content {
+    margin-left: 33px;
+    margin-bottom: 50px;
+    max-width: 320px;
+  }
+  .ev-blog-hero-header {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .ev-blog-hero-body {
+    font-size: 13.5px;
+    line-height: 20px;
+  }
+  /**********************************
+            Gallery
+    ***********************************/
+  .ev-blog-gallery-item {
+    width: 40%;
+  }
+  .ev-blog-gallery-image {
+    margin: 0 auto 44px auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  /**********************************
+            Gallery
+    ***********************************/
+  .ev-blog-gallery-wrapper {
+    margin: 66px 0;
+  }
+
+  .ev-blog-gallery-item {
+    width: 95%;
+    margin: 20px;
+  }
+  .ev-blog-gallery-title {
+    font-size: 24px;
+    line-height: inherit;
+  }
+  .ev-blog-gallery-body {
+    font-size: 14px;
+  }
+  .ev-blog-gallery-date,
+  .ev-blog-gallery-read-more {
+    font-size: 12px;
+  }
+  .ev-blog-pagination {
+    font-size: 14px;
+  }
+  /**********************************
+            FORM
+    ***********************************/
+  .ev-blog-form-elements-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .ev-blog-form-group {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .ev-blog-form-header h1 {
+    font-size: 24px;
+  }
+  .ev-blog-form-container p {
+    font-size: 14px;
+  }
+}

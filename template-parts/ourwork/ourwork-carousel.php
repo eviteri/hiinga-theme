@@ -4,7 +4,7 @@
 
             <div class="ev-our-work-slide-wrapper">
                 <div class="ev-our-work-slide">
-                    <img class="ev-our-work-slider-image" src="./images/our-work/paul.png" />
+                    <img class="ev-our-work-slider-image" src="<?php echo get_template_directory_uri(); ?>/images/our-work/paul.png" />
                     <div class="ev-our-work-slider-caption">PAUL</div>
                     <div class="ev-our-work-slider-body">
                         Paul A farmer and true entrepreneur,
@@ -23,7 +23,7 @@
 
             <div class="ev-our-work-slide-wrapper">
                 <div class="ev-our-work-slide">
-                    <img class="ev-our-work-slider-image" src="./images/our-work/gloria.png" />
+                    <img class="ev-our-work-slider-image" src="<?php echo get_template_directory_uri(); ?>/images/our-work/gloria.png" />
                     <div class="ev-our-work-slider-caption">Gloria</div>
                     <div class="ev-our-work-slider-body">
                         Gloria Through Hiinga and an all-female cooperative, Gertrude expanded her farming
@@ -42,7 +42,7 @@
 
             <div class="ev-our-work-slide-wrapper">
                 <div class="ev-our-work-slide">
-                    <img class="ev-our-work-slider-image" src="./images/our-work/paul.png" />
+                    <img class="ev-our-work-slider-image" src="<?php echo get_template_directory_uri(); ?>/images/our-work/paul.png" />
                     <div class="ev-our-work-slider-caption">George & Lucy</div>
                     <div class="ev-our-work-slider-body">
                         George & Lucy With proper capital funding and guidance, Peter started Pena Ebenezer, a
@@ -61,7 +61,7 @@
 
             <div class="ev-our-work-slide-wrapper">
                     <div class="ev-our-work-slide">
-                        <img class="ev-our-work-slider-image" src="./images/our-work/paul.png" />
+                        <img class="ev-our-work-slider-image" src="<?php echo get_template_directory_uri(); ?>/images/our-work/paul.png" />
                         <div class="ev-our-work-slider-caption">PAUL</div>
                         <div class="ev-our-work-slider-body">
                             Paul A farmer and true entrepreneur,
@@ -80,7 +80,7 @@
 
             <div class="ev-our-work-slide-wrapper">
                 <div class="ev-our-work-slide">
-                    <img class="ev-our-work-slider-image" src="./images/our-work/gloria.png" />
+                    <img class="ev-our-work-slider-image" src="<?php echo get_template_directory_uri(); ?>/images/our-work/gloria.png" />
                     <div class="ev-our-work-slider-caption">Gloria</div>
                     <div class="ev-our-work-slider-body">
                         Gloria Through Hiinga and an all-female cooperative, Gertrude expanded her farming
@@ -99,7 +99,7 @@
 
             <div class="ev-our-work-slide-wrapper">
                 <div class="ev-our-work-slide">
-                    <img class="ev-our-work-slider-image" src="./images/our-work/paul.png" />
+                    <img class="ev-our-work-slider-image" src="<?php echo get_template_directory_uri(); ?>/images/our-work/paul.png" />
                     <div class="ev-our-work-slider-caption">George & Lucy</div>
                     <div class="ev-our-work-slider-body">
                         George & Lucy With proper capital funding and guidance, Peter started Pena Ebenezer, a
@@ -121,10 +121,10 @@
     </div>
     <div class="ev-our-work-carousel-controllers">
         <span class="ev-our-work-carousel-next">
-            <img src="./svg/right-arrow.svg" />
+            <img src="<?php echo get_template_directory_uri(); ?>/svg/right-arrow.svg" />
         </span>
         <span class="ev-our-work-carousel-previous">
-            <img src="./svg/left-arrow.svg" />
+            <img src="<?php echo get_template_directory_uri(); ?>/svg/left-arrow.svg" />
         </span>
     </div>
 </div>

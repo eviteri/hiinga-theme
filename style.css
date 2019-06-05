@@ -9,3 +9,177 @@ License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: hiinga
 */
+
+@import "./css/reset.css";
+
+/***************************************************************************
+                                    GLOBAL
+****************************************************************************/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin-top: 92px;
+}
+.ev-text-right {
+  text-align: right;
+}
+.ev-mg-20 {
+  margin: 20px;
+}
+.ev-column-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 20px 0px 20px 0px;
+}
+.ev-form-error {
+  color: red;
+  font-style: italic;
+  font-weight: 100;
+}
+h1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #000000;
+}
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+p {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 47px;
+  color: #000000;
+}
+/***************************************************************************
+                            SHOW MORE ACCORDION
+****************************************************************************/
+.ev-show-more-panel {
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+.ev-accordion-show-more {
+  font-family: Open Sans;
+  font-size: 18px;
+  position: absolute;
+  bottom: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #4bc5f2;
+}
+/***************************************************************************
+                                 Loading
+****************************************************************************/
+.ev-site-loding-wrapper {
+  display: none;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  background: #00000078;
+}
+.ev-site-loading-container {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.ev-site-loading-container div {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  -webkit-animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.ev-site-loading-container div:nth-child(1) {
+  -webkit-animation-delay: -0.45s;
+  animation-delay: -0.45s;
+}
+.ev-site-loading-container div:nth-child(2) {
+  -webkit-animation-delay: -0.3s;
+  animation-delay: -0.3s;
+}
+.ev-site-loading-container div:nth-child(3) {
+  -webkit-animation-delay: -0.15s;
+  animation-delay: -0.15s;
+}
+
+/***************************************************************************
+                                 HERO
+****************************************************************************/
+/*Waiting until the content is ready to play animations*/
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  -webkit-animation-play-state: paused !important;
+  animation-play-state: paused !important;
+}
+
+@media screen and (max-width: 900px) {
+  /**********************************
+                Global
+    ***********************************/
+  main {
+    margin-top: 57px;
+  }
+  h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  /**********************************
+                SHOW MORE
+    ***********************************/
+  .ev-accordion-show-more {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 500px) {
+}

@@ -1,53 +1,62 @@
 <footer>
     <section class="ev-footer-top">
         <div class="ev-footer-top-1">
-            <img class="ev-footer-logo" src="./svg/footer-logo.svg" />
-            <img class="ev-footer-logo-mobile" src="./svg/header-logo.svg" />
+            <img class="ev-footer-logo" src="<?php echo get_template_directory_uri(); ?>/svg/footer-logo.svg" />
+            <img class="ev-footer-logo-mobile" src="<?php echo get_template_directory_uri(); ?>/svg/header-logo.svg" />
         </div>
         <div class="ev-footer-top-2">
             <div class="ev-footer-top-header">Our Work</div>
             <div class="ev-footer-top-body">
-                <ul>
-                    <li><a href="#">Meet our entrepreneurs</a></li>
-                    <li><a href="#">Sectors</a></li>
-                    <li><a href="#">Impact</a></li>
-                </ul>
+                <?php 
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'footer1',
+                            'container'     => '',
+                            'container_class'    => '',
+                            'depth'          => 1,
+                        )
+                    );
+                ?>
             </div>
         </div>
         <div class="ev-footer-top-3">
             <div class="ev-footer-top-header">About Us</div>
             <div class="ev-footer-top-body">
-                <ul>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Our Founders</a></li>
-                    <li><a href="#">Our Leadership</a></li>
-                    <li><a href="#">Our Board</a></li>
-                    <li><a href="#">Our Advisors</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
+                <?php 
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'footer2',
+                            'container'     => '',
+                            'container_class'    => '',
+                            'depth'          => 1,
+                        )
+                    );
+                ?>
             </div>
         </div>
         <div class="ev-footer-top-4">
             <div class="ev-footer-top-header">How to Help</div>
             <div class="ev-footer-top-body">
-                <ul>
-                    <li><a href="#">Donate</a></li>
-                    <li><a href="#">Volunteer or Mission</a></li>
-                    <li><a href="#">Organize a Fundraiser</a></li>
-                    <li><a href="#">Interships & Fellowships</a></li>
-                    <li><a href="#">Pledge Today</a></li>
-                    <li><a href="#">Impact Investors</a></li>
-                </ul>
+                <?php 
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'footer3',
+                            'container'     => '',
+                            'container_class'    => '',
+                            'depth'          => 1,
+                        )
+                    );
+                ?>
             </div>
         </div>
         <div class="ev-footer-top-5">
             <div class="ev-footer-top-5-top">
                 <div class="ev-footer-top-header">Follow Us</div>
                 <div class="ev-footer-top-social-wrapper">
-                    <a href="#"><img src="svg/social/linkedin.svg" /></a>
-                    <a href="#"><img src="svg/social/twitter.svg" /></a>
-                    <a href="#"><img src="svg/social/instagram.svg" /></a>
-                    <a href="#"><img src="svg/social/facebook.svg" /></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/svg/social/linkedin.svg" /></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/svg/social/twitter.svg" /></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/svg/social/instagram.svg" /></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/svg/social/facebook.svg" /></a>
                 </div>
             </div>
             <div class="ev-footer-top-5-bottom">

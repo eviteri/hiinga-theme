@@ -22,27 +22,28 @@
 
         <header class="ev-header-site-mobile">
             <div class="ev-burger-wrapper">
-                <img src="./svg//burger.svg" width="31" height="22" />
+                <img src="<?php echo get_template_directory_uri(); ?>/svg//burger.svg" width="31" height="22" />
             </div>
             <div class="ev-logo-wrapper">
-                <a href="index.php">
-                    <img src="./svg/header-logo.svg" width="170" height="48" />
+                <a href="<?php echo get_home_url(); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/svg/header-logo.svg" width="170" height="48" />
                 </a>
             </div>
             <div class="ev-site-navigation">
-                <nav class="ev-header-navigation">
-                    <ul>
-                        <li><a href="our-work.php">OUR WORK</a></li>
-                        <li><a href="about-us.php">ABOUT US</a></li>
-                        <li><a href="take-action.php">TAKE ACTION</a></li>
-                        <li><a href="contact.php">CONTACT US</a></li>
-                        <li><a href="blog.php">NEWS</a></li>
-                    </ul>
-                </nav>
+                <?php 
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'primary',
+                            'container'     => 'nav',
+                            'container_class'    => 'ev-header-navigation',
+                            'depth'          => 1,
+                        )
+                    );
+                ?>
             </div>
             <div class="ev-mobile-logo-wrapper">
-                <a href="index.php">
-                    <img src="./svg/header-mobile-logo.svg" width="34" height="32.66" />
+                <a href="<?php echo get_home_url(); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/svg/header-mobile-logo.svg" width="34" height="32.66" />
                 </a>
             </div>
             <div class="ev-donote-button">
